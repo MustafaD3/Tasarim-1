@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Genos:wght@300&family=IBM+Plex+Sans:wght@500&family=Merriweather+Sans:wght@700&family=Mulish:wght@800&family=Oswald:wght@600&family=Poppins:wght@700&family=Roboto&family=Russo+One&family=Teko:wght@600&display=swap");
+/*Google Fonts*/
+
+@media only screen and (max-width: 1200px) {
+  header .header-alt-kapsayici .search {
+    width: 35%;
+  }
+
+  main .film-box ul {
+    justify-content: space-evenly;
+  }
+  main .best-puan ul {
+    justify-content: center;
+  }
+  main .complaint .comment {
+    width: 59.8%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .film-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .film-box ul {
+    justify-content: center;
+  }
+  main nav {
+    flex-direction: row;
+    margin-bottom: 1%;
+    width: 100%;
+  }
+  main nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main .best-puan {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .complaint {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .complaint .comment {
+    width: 48%;
+    height: 420px;
+  }
+  main .complaint .comment form #comment-textarea {
+    height: 63%;
+  }
+  main .complaint .comment form #comment-submit {
+    left: 65%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .banner {
+    display: none;
+  }
+
+  .complaint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .complaint .comment {
+    margin-bottom: 50px;
+    width: 100% !important;
+  }
+  .complaint .comment #comment-submit {
+    left: 75% !important;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer h1 {
+    display: block;
+    align-self: flex-start;
+    width: 100%;
+    margin-top: 25px;
+  }
+  footer h1 p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 15px;
+  }
+  header .logo {
+    display: none;
+  }
+  header .search {
+    width: 52% !important;
+    margin-left: -1% !important;
+  }
+  header .user {
+    margin-right: 5% !important;
+  }
+  header .user a {
+    font-size: 21px !important;
+  }
+
+  main .film-box {
+    margin-left: 0;
+    width: 100% !important;
+  }
+  main .best-puan {
+    width: 100%;
+    margin-left: 0;
+  }
+  main .complaint {
+    align-items: center;
+  }
+  main .complaint .comment #comment-submit {
+    left: 68% !important;
+  }
+  main .complaint #form {
+    float: none;
+  }
+}/*# sourceMappingURL=style.css.map */

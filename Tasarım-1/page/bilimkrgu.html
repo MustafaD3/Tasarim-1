@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Genos:wght@300&family=IBM+Plex+Sans:wght@500&family=Merriweather+Sans:wght@700&family=Mulish:wght@800&family=Oswald:wght@600&family=Poppins:wght@700&family=Roboto&family=Russo+One&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="page css/header.css">
+    <link rel="stylesheet" href="page css/reset.css">
+    <link rel="stylesheet" href="page css/main.css">
+    <link rel="stylesheet" href="page css/footer.css">
+    <link rel="stylesheet" href="page css/style.css">
+    <style>
+        main nav ul :nth-child(6) a{
+            color: red;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="header-alt-kapsayici">
+            <div class="logo">
+                <a href="../index.html"><img src="img/logo.jpg" alt=""></a>
+            </div>
+            <div class="search">
+                <textarea placeholder="Ne İzlemek İstersiniz?" maxlength="34"></textarea>
+                <div class="search-icon"></div>
+        </div>
+            <div class="user">
+                <a href="#">Giriş Yap /</a>
+                <a href="#"> Üye Ol</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+           <ul>
+            <li><a href="tarih.html">Tarih Filmleri</a></li>
+            <li><a href="savas.html">Savaş Filmleri</a></li>
+            <li><a href="komedi.html">Komedi Filmleri</a></li>
+            <li><a href="dram.html">Dram Filmleri</a></li>
+            <li><a href="aksiyon.html">Aksiyon Filmleri</a></li>
+            <li><a href="bilimkrgu.html">Bilim Kurgu Filmleri</a></li>
+            <li><a href="bati.html">Western Filmleri</a></li>
+            <li><a href="18+.html">18+ Filmleri</a></li>
+           </ul>
+           <h3>Bu Hafta En Çok İzlenen Film</h3>
+           <div><a href=""><img src="img/filmler/film2.jpg"alt=""><h3>Gutterbug</h3></a></div>
+        </nav>
+        <section class="film-box">
+            <ul>
+                <li><a href=""><img src="img/filmler/film1.jpg" alt="1080p"></a><a href=""><div><span>Her Zaman Sadık</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film2.jpg" alt=""></a><a href=""><div><span>Gutterbug</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film3.jpg" alt=""></a><a href=""><div><span>Monsters of Man</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film4.jpg" alt=""></a><a href=""><div><span>Gitmesine İzin Ver</span></div></a></li>
+            
+            
+                <li><a href=""><img src="img/filmler/film5.jpg" alt=""></a><a href=""><div><span>Yeni Baştan</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film6.jpg" alt=""></a><a href=""><div><span>Bir Babanın Öfkesi</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film7.jpg" alt=""></a><a href=""><div><span>Sakın Dinleme</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film8.jpg" alt=""></a><a href=""><div><span>Onca Yoksulluk Varken</span></div></a></li>
+            
+    
+                <li><a href=""><img src="img/filmler/film9.jpg" alt=""></a><a href=""><div><span>Greenland Son Sığınak</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film10.jpg" alt=""></a><a href=""><div><span>Paralel Zihinler</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film11.jpg" alt=""></a><a href=""><div><span>Kızma Birader</span></div></a></li>
+                <li><a href=""><img src="img/filmler/film12.jpg" alt=""></a><a href=""><div><span>Evil Takes Root</span></div></a></li>
+            </ul>
+            
+          
+            
+        </section>
+        <section class="best-puan">
+            <h2>İMDB Puanı Yüksek Olan Filmler</h2>
+            <ul>
+                <li><a href="#"><img src="img/filmler/film2.jpg" alt=""><h3>Gutterbug</h3></a></li>
+                <li><a href="#"><img src="img/filmler/film4.jpg" alt=""><h3>Gitmesine İzin Ver</h3></a></li>
+                <li><a href="#"><img src="img/filmler/film6.jpg" alt=""><h3>Bir Babanın Öfkesi</h3></a></li>
+                <li><a href="#"><img src="img/filmler/film7.jpg" alt=""><h3>Sakın Dinleme</h3></a></li>
+            </ul>
+        </section>
+        <section class="complaint">
+            
+            <div class="comment">
+                <form action="">
+                    <label for="" id="label-1">Yorumunuz</label>
+                    <input type="text" id="comment-text" maxlength="63" autocomplete="off" required>
+                    <input type="submit" id="comment-submit">
+                    <label id="label-2" for="">Hakkımızdaki Diğer Yorumlar</label>
+                    <textarea name=""cols="25" rows="10" id="comment-textarea" readonly></textarea>
+                    
+                </form>
+            </div>
+            <form action="" method="" id="form">
+                <div class="placeholder">
+                <input type="text" id="heading"autocomplete="off" required maxlength="35">
+                <span>Konu Başlığı</span>
+                </div>
+                <textarea name="" id="content" cols="30" rows="10" maxlength="270" placeholder="Şikayetiniz Nedir" required></textarea>
+                <div class="placeholder1">
+                <input type="email" id="email" maxlength="35" autocomplete="off" required><span>E-Mail</span>
+                </div>
+                <input type="submit" id="submit">
+            </form>
+           
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href=""><img src="img/sosyalmedya/facebook.jpg" alt=""></a></li>
+            <li><a href=""><img src="img/sosyalmedya/insta.png" alt=""></a></li>
+            <li><a href=""><img src="img/sosyalmedya/twit.png" alt=""></a></li>
+        </ul>
+        <h2>copyright © 2021 tüm hakları saklıdır</h2>
+        <h1>Hakkımızda<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo, est necessitatibus consequatur accusantium voluptates.</p></h1>
+        <div class="clear"></div>
+    </footer>
+</body>
+</html>

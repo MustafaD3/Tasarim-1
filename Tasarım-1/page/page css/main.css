@@ -1,0 +1,266 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  main nav {
+    width: 14%;
+    height: auto;
+    overflow: hidden;
+  }
+  main nav ul {
+    width: auto;
+    height: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  main nav ul li {
+    padding: 6px;
+  }
+  main nav ul li a:hover {
+    color: red;
+  }
+  main nav h3 {
+    margin-top: 15px;
+    text-align: center;
+  }
+  main nav div {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+  }
+  main nav div a img {
+    width: 235px;
+    height: 340px;
+  }
+  main nav div a h3 {
+    color: #cfc31c;
+    letter-spacing: 2p;
+  }
+  main .film-box {
+    width: 80%;
+    height: auto;
+    border: 1px solid;
+    padding: 20px;
+    min-width: 344.8px;
+  }
+  main .film-box ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+  main .film-box ul li {
+    border: 1px solid #7c5706;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+    max-width: 285px;
+  }
+  main .film-box ul li:hover {
+    transform: scale(1.07);
+  }
+  main .film-box ul li img {
+    width: 250px;
+    height: 350px;
+  }
+  main .film-box ul li div {
+    text-align: center;
+    padding: 7px;
+  }
+  main .film-box ul li div span {
+    color: #c08414 !important;
+  }
+  main .best-puan {
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 14%;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 20px;
+    min-width: 344.8px;
+  }
+  main .best-puan h2 {
+    color: #f52121 !important;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  main .best-puan ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  main .best-puan ul li {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #7c5706;
+    margin: 15px;
+    min-width: 282px;
+    min-height: 412px;
+  }
+  main .best-puan ul li:hover {
+    transform: scale(1.05);
+  }
+  main .best-puan ul li h3 {
+    color: #c08414 !important;
+    text-align: center;
+  }
+  main .best-puan ul li img {
+    width: 250px;
+    height: 350px;
+  }
+  main .complaint {
+    width: 80%;
+    height: auto;
+    padding-top: 7px;
+    margin-left: 14%;
+  }
+  main .complaint .comment {
+    width: 65%;
+    height: auto;
+    float: left;
+  }
+  main .complaint .comment form {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background: transparent;
+    position: relative;
+  }
+  main .complaint .comment form #comment-text {
+    width: 66%;
+    margin-left: 3%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-transform: uppercase;
+  }
+  main .complaint .comment form #label-1 {
+    display: block;
+    color: black;
+    margin-left: 3%;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  main .complaint .comment form #comment-submit {
+    top: 25px;
+    left: 70%;
+    position: absolute;
+    width: 75px;
+    height: 40px;
+    background: linear-gradient(to right, #dbbd37, #ff9900);
+    color: #000000 !important;
+  }
+  main .complaint .comment form #comment-textarea {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 70%;
+    resize: none;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  main .complaint .comment form #label-2 {
+    text-align: center;
+    display: block;
+    color: #be9714 !important;
+  }
+  main .complaint form {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    background-color: #111111;
+    border: 1px solid black;
+    border-radius: 8px;
+    float: right;
+    padding: 5px;
+  }
+  main .complaint form input, main .complaint form textarea {
+    display: block;
+    width: 270px;
+    margin: 15px;
+    height: 25px;
+  }
+  main .complaint form .placeholder {
+    position: relative;
+  }
+  main .complaint form .placeholder #heading {
+    display: inline-block;
+    border-radius: 4px;
+  }
+  main .complaint form .placeholder #heading:focus + span {
+    top: -5px;
+    transition: 450ms;
+    color: white;
+  }
+  main .complaint form .placeholder span {
+    position: absolute;
+    top: 18;
+    left: 25px;
+  }
+  main .complaint form #content {
+    resize: none;
+    padding: 5px;
+    height: auto;
+    font-size: 17px;
+    line-height: 1.3rem;
+    outline: none;
+    border: 1px solid black;
+    font-weight: 700;
+    border-radius: 8px;
+  }
+  main .complaint form .placeholder1 {
+    position: relative;
+  }
+  main .complaint form .placeholder1 #email {
+    display: inline-block;
+    border-radius: 4px;
+  }
+  main .complaint form .placeholder1 #email:focus + span {
+    top: -5px;
+    transition: 450ms;
+    color: white;
+  }
+  main .complaint form .placeholder1 span {
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #47474b;
+  }
+  main .complaint #submit {
+    font-size: 25px;
+    color: #ff9900;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    letter-spacing: 2px;
+    height: 30px;
+    background: linear-gradient(to left, black 50%, white);
+    border-radius: 4px;
+  }
+  .fnt, header .header-alt-kapsayici .user a, main nav ul li a, main nav h3, main .film-box ul li div span, main .best-puan h2, main .best-puan ul li h3, main .complaint .comment form #comment-submit, main .complaint .comment form #label-2 {
+    font-family: Bebas Neue;
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+  }
